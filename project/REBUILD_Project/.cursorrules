@@ -1,0 +1,53 @@
+# Cursor Rules for REBUILD3pl (Phase 1 Focus)
+
+[context]
+priority_files = [
+  "PHASE_REORGANIZATION_PLAN.md",
+  "README.md",
+  "app/api/tms/",
+  "app/api/wms/",
+  "app/api/orders/",
+  "app/api/planning/",
+  "components/tms/",
+  "components/wms/",
+  "components/Scene/",
+  "app/load-optimizer/",
+  "lib/ai/",
+  "lib/ai-agents/",
+  "lib/optimization/",
+  "lib/stores/loadOptimizerStore.ts",
+  "lib/services/order-optimization-service.ts",
+  "lib/services/order-validation-service.ts"
+]
+
+low_priority_files = [
+  "app/api/digital-handshake/",
+  "app/api/erp/",
+  "lib/services/digital-handshake-service.ts",
+  "lib/erp/",
+  "components/blueshipsync/",
+  "lib/lidar/",
+  "app/lidar/",
+  "app/analytics/",
+  "lib/production-scheduling/",
+  "lib/mrp/"
+]
+
+[instructions]
+objective = "Prioritize Phase 1: AI-powered TMS/WMS, load optimizer, orders, shipments, inventory, planning agents. Avoid Phase 2/3 unless explicitly asked."
+
+[style]
+prefer_languages = ["TypeScript", "TSX"]
+
+
+
+
+
+
+
+
+
+
+
+
+

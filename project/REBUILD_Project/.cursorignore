@@ -1,0 +1,35 @@
+# Deprioritize heavy/generated or Phase 2/3 areas for Cursor context
+node_modules/
+.next/
+.playwright-report/
+coverage/
+
+# Phase 2/3 areas
+app/api/digital-handshake/
+app/api/erp/
+components/blueshipsync/
+lib/services/digital-handshake-service.ts
+lib/erp/
+lib/lidar/
+app/lidar/
+app/analytics/
+lib/production-scheduling/
+lib/mrp/
+
+# Large assets
+public/**/*.mp4
+public/**/*.zip
+public/**/*.bin
+
+
+
+
+
+
+
+
+
+
+
+
+
